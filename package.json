@@ -1,0 +1,67 @@
+{
+  "name": "@indiefoundry/maia2-onnx",
+  "version": "0.1.0",
+  "description": "Maia-2 human-like chess move prediction in TypeScript: ONNX export + encoding/decoding for onnxruntime (Node, browser, React Native).",
+  "keywords": [
+    "chess",
+    "maia",
+    "maia-2",
+    "onnx",
+    "onnxruntime",
+    "human-like",
+    "chess-engine",
+    "neural-network",
+    "lichess",
+    "typescript"
+  ],
+  "homepage": "https://github.com/IndieFoundry/maia2-onnx#readme",
+  "bugs": {
+    "url": "https://github.com/IndieFoundry/maia2-onnx/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IndieFoundry/maia2-onnx.git"
+  },
+  "license": "MIT",
+  "author": "Antoine Tamano",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "scripts": {
+    "prepack": "npm run build",
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "bench": "npm run build && node scripts/bench.mjs"
+  },
+  "dependencies": {
+    "chess.js": "^1.4.0"
+  },
+  "peerDependencies": {
+    "onnxruntime-common": ">=1.17"
+  },
+  "peerDependenciesMeta": {
+    "onnxruntime-common": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "onnxruntime-common": "^1.30.0",
+    "onnxruntime-node": "^1.30.0",
+    "onnxruntime-web": "^1.30.0",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.2"
+  }
+}

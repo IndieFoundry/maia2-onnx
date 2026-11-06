@@ -1,0 +1,8 @@
+.venv/
+node_modules/
+maia2_models/
+models/*.onnx
+dist/
+__pycache__/
+*.pyc
+.DS_Store

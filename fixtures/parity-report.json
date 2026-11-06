@@ -1,0 +1,226 @@
+[
+  {
+    "model": "rapid-fp32",
+    "n": 360,
+    "top1Agreement": 1,
+    "top3SetAgreement": 1,
+    "maxAbsDeltaTop10": 0.0000018648716983982183,
+    "meanAbsDeltaTop10": 1.3782901351378155e-7,
+    "maxAbsDeltaWinProb": 0.000049736160039892674,
+    "top1DisagreementsAtGapAbove5pct": 0,
+    "byCategory": {
+      "opening": {
+        "n": 120,
+        "top1Agreement": 1,
+        "maxAbsDeltaTop10": 0.0000013938830618065445
+      },
+      "middlegame": {
+        "n": 120,
+        "top1Agreement": 1,
+        "maxAbsDeltaTop10": 0.0000018648716983982183
+      },
+      "endgame": {
+        "n": 120,
+        "top1Agreement": 1,
+        "maxAbsDeltaTop10": 0.0000016482926304406398
+      }
+    },
+    "maxBatchVsSingleDelta": 0.0000014149113494177357
+  },
+  {
+    "model": "rapid-fp16",
+    "n": 360,
+    "top1Agreement": 1,
+    "top3SetAgreement": 1,
+    "maxAbsDeltaTop10": 0.0008368297179495165,
+    "meanAbsDeltaTop10": 0.00006739885630891337,
+    "maxAbsDeltaWinProb": 0.0008678695619106502,
+    "top1DisagreementsAtGapAbove5pct": 0,
+    "byCategory": {
+      "opening": {
+        "n": 120,
+        "top1Agreement": 1,
+        "maxAbsDeltaTop10": 0.0008148848019934873
+      },
+      "middlegame": {
+        "n": 120,
+        "top1Agreement": 1,
+        "maxAbsDeltaTop10": 0.0008368297179495165
+      },
+      "endgame": {
+        "n": 120,
+        "top1Agreement": 1,
+        "maxAbsDeltaTop10": 0.0007187584457393204
+      }
+    },
+    "maxBatchVsSingleDelta": 0.0000017600861604849527
+  },
+  {
+    "model": "rapid-int8",
+    "n": 360,
+    "top1Agreement": 0.9861111111111112,
+    "top3SetAgreement": 0.9583333333333334,
+    "maxAbsDeltaTop10": 0.02681815163403034,
+    "meanAbsDeltaTop10": 0.0017880340092539255,
+    "maxAbsDeltaWinProb": 0.017349985122680656,
+    "top1DisagreementsAtGapAbove5pct": 0,
+    "byCategory": {
+      "opening": {
+        "n": 120,
+        "top1Agreement": 0.9833333333333333,
+        "maxAbsDeltaTop10": 0.02681815163403034
+      },
+      "middlegame": {
+        "n": 120,
+        "top1Agreement": 0.9916666666666667,
+        "maxAbsDeltaTop10": 0.021694839080960815
+      },
+      "endgame": {
+        "n": 120,
+        "top1Agreement": 0.9833333333333333,
+        "maxAbsDeltaTop10": 0.02354344509082651
+      }
+    },
+    "maxBatchVsSingleDelta": 0.042655025410098746
+  },
+  {
+    "model": "rapid-int8-fp16",
+    "n": 360,
+    "top1Agreement": 0.9916666666666667,
+    "top3SetAgreement": 0.9638888888888889,
+    "maxAbsDeltaTop10": 0.028525775463437986,
+    "meanAbsDeltaTop10": 0.0017894400816822558,
+    "maxAbsDeltaWinProb": 0.015916970252990714,
+    "top1DisagreementsAtGapAbove5pct": 0,
+    "byCategory": {
+      "opening": {
+        "n": 120,
+        "top1Agreement": 0.975,
+        "maxAbsDeltaTop10": 0.027394133770482443
+      },
+      "middlegame": {
+        "n": 120,
+        "top1Agreement": 1,
+        "maxAbsDeltaTop10": 0.022373145425470253
+      },
+      "endgame": {
+        "n": 120,
+        "top1Agreement": 1,
+        "maxAbsDeltaTop10": 0.028525775463437986
+      }
+    },
+    "maxBatchVsSingleDelta": 0.049807354744784094
+  },
+  {
+    "model": "blitz-fp32",
+    "n": 360,
+    "top1Agreement": 1,
+    "top3SetAgreement": 1,
+    "maxAbsDeltaTop10": 0.000002367094080191201,
+    "meanAbsDeltaTop10": 1.3763957119039738e-7,
+    "maxAbsDeltaWinProb": 0.0000503154039382947,
+    "top1DisagreementsAtGapAbove5pct": 0,
+    "byCategory": {
+      "opening": {
+        "n": 120,
+        "top1Agreement": 1,
+        "maxAbsDeltaTop10": 0.000002197300481288078
+      },
+      "middlegame": {
+        "n": 120,
+        "top1Agreement": 1,
+        "maxAbsDeltaTop10": 0.0000015445640163536112
+      },
+      "endgame": {
+        "n": 120,
+        "top1Agreement": 1,
+        "maxAbsDeltaTop10": 0.000002367094080191201
+      }
+    },
+    "maxBatchVsSingleDelta": 0.0000015353839362131083
+  },
+  {
+    "model": "blitz-fp16",
+    "n": 360,
+    "top1Agreement": 0.9972222222222222,
+    "top3SetAgreement": 1,
+    "maxAbsDeltaTop10": 0.0009491187639071308,
+    "meanAbsDeltaTop10": 0.00007690037123583218,
+    "maxAbsDeltaWinProb": 0.0005243986904621134,
+    "top1DisagreementsAtGapAbove5pct": 0,
+    "byCategory": {
+      "opening": {
+        "n": 120,
+        "top1Agreement": 1,
+        "maxAbsDeltaTop10": 0.0009491187639071308
+      },
+      "middlegame": {
+        "n": 120,
+        "top1Agreement": 1,
+        "maxAbsDeltaTop10": 0.0008819604119243429
+      },
+      "endgame": {
+        "n": 120,
+        "top1Agreement": 0.9916666666666667,
+        "maxAbsDeltaTop10": 0.0008864041866252226
+      }
+    },
+    "maxBatchVsSingleDelta": 0.0000012746175108713231
+  },
+  {
+    "model": "blitz-int8",
+    "n": 360,
+    "top1Agreement": 0.9833333333333333,
+    "top3SetAgreement": 0.9777777777777777,
+    "maxAbsDeltaTop10": 0.03001411537473886,
+    "meanAbsDeltaTop10": 0.001821867506628694,
+    "maxAbsDeltaWinProb": 0.014218739581108086,
+    "top1DisagreementsAtGapAbove5pct": 0,
+    "byCategory": {
+      "opening": {
+        "n": 120,
+        "top1Agreement": 0.9833333333333333,
+        "maxAbsDeltaTop10": 0.03001411537473886
+      },
+      "middlegame": {
+        "n": 120,
+        "top1Agreement": 0.975,
+        "maxAbsDeltaTop10": 0.023437572370464954
+      },
+      "endgame": {
+        "n": 120,
+        "top1Agreement": 0.9916666666666667,
+        "maxAbsDeltaTop10": 0.019201034223393698
+      }
+    },
+    "maxBatchVsSingleDelta": 0.045021563188215985
+  },
+  {
+    "model": "blitz-int8-fp16",
+    "n": 360,
+    "top1Agreement": 0.9722222222222222,
+    "top3SetAgreement": 0.9833333333333333,
+    "maxAbsDeltaTop10": 0.03226094490986586,
+    "meanAbsDeltaTop10": 0.0019280215726359784,
+    "maxAbsDeltaWinProb": 0.014782004237174962,
+    "top1DisagreementsAtGapAbove5pct": 0,
+    "byCategory": {
+      "opening": {
+        "n": 120,
+        "top1Agreement": 0.9666666666666667,
+        "maxAbsDeltaTop10": 0.03226094490986586
+      },
+      "middlegame": {
+        "n": 120,
+        "top1Agreement": 0.975,
+        "maxAbsDeltaTop10": 0.030782089247221922
+      },
+      "endgame": {
+        "n": 120,
+        "top1Agreement": 0.975,
+        "maxAbsDeltaTop10": 0.022071771609306512
+      }
+    },
+    "maxBatchVsSingleDelta": 0.04110714991635278
+  }
+]

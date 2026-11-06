@@ -1,0 +1,44 @@
+[
+  {
+    "file": "maia2-rapid.onnx",
+    "bytes": 84958999,
+    "top1Agreement": 1.0,
+    "maxAbsDeltaTop10": 0.0,
+    "maxAbsDeltaWinProb": 5e-05
+  },
+  {
+    "file": "maia2-rapid.fp16.onnx",
+    "bytes": 42524714,
+    "top1Agreement": 1.0,
+    "maxAbsDeltaTop10": 0.00084,
+    "maxAbsDeltaWinProb": 0.00087
+  },
+  {
+    "file": "maia2-rapid.int8.onnx",
+    "bytes": 39401883,
+    "top1Agreement": 0.9861,
+    "maxAbsDeltaTop10": 0.02682,
+    "maxAbsDeltaWinProb": 0.01735
+  },
+  {
+    "file": "maia2-rapid.int8pt.onnx",
+    "bytes": 39314974,
+    "top1Agreement": 0.9139,
+    "maxAbsDeltaTop10": 0.12668,
+    "maxAbsDeltaWinProb": 0.03241
+  },
+  {
+    "file": "maia2-rapid.w8.onnx",
+    "bytes": 47089027,
+    "top1Agreement": 0.9917,
+    "maxAbsDeltaTop10": 0.0057,
+    "maxAbsDeltaWinProb": 0.00329
+  },
+  {
+    "file": "maia2-rapid.int8-fp16.onnx",
+    "bytes": 27391018,
+    "top1Agreement": 0.9917,
+    "maxAbsDeltaTop10": 0.02853,
+    "maxAbsDeltaWinProb": 0.01592
+  }
+]
